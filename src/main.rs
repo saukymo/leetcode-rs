@@ -1,9 +1,7 @@
-mod two_sum;
-mod symmetric_tree;
-mod happy_number;
+mod palindrome_number;
 
 fn main() {
-    let result = happy_number::Solution::is_happy(2);
-    println!("{:?}", result);
+    // println!("{:}", 0_f64.log10());
+    let result = palindrome_number::Solution::is_palindrome(-1);
+    println!("{:}", result)
 }
-
